@@ -9,7 +9,6 @@ import { specials } from '../../../data'
 const Specials = (props) => {
   // STEP 2 - add the imported data to state
   const [specialsState, setSpecialsState] = useState(specials);
-  console.log('specials', { specialsState });
 
   return (
     <div className='specialButtons'>

@@ -1,11 +1,9 @@
 import React from "react";
 
 const OperatorButton = (props) => {
-
-  // const operator = props;
   
   return (
-    <button onClick={() => {}} className='opButton'>
+    <button className='opButton'>
       {/* Display a button element rendering the data being passed down from the parent container on props */}
       {props.operator.char}
     </button>
