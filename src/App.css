@@ -37,7 +37,10 @@ button{
     padding: 5px;
     text-align: center;
     align-items: center;
-    border: none;
+    border-bottom: 2px outset black;
+    border-top:none;
+    border-right:none;
+    border-left:none;
 }
 
 .left{
